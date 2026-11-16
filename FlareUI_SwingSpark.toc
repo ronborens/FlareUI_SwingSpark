@@ -2,12 +2,13 @@
 ## Title: FlareUI: Swing Timer on Health Bar
 ## Notes: Unofficial FlareUI extension. A spark crosses FlareUI's player health bar over each main-hand swing.
 ## Author: ronborens
-## Version: 1.0.0
+## Version: 1.0.1
 ## Dependencies: FlareUI
 ## Group: FlareUI
 ## SavedVariables: FlareUI_SwingSparkDB
 ## Category: User Interface
 ## X-License: MIT
+## X-Curse-Project-ID: 1809414
 
 Options.lua
 SwingSpark.lua
