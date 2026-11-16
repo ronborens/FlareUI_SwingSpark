@@ -1,13 +1,40 @@
 # FlareUI: Swing Timer on Health Bar
 
-A small spark crosses the health bar of FlareUI's player frame over each main-hand swing. Your next swing lands as the spark reaches the end, the same way FlareUI's Five-Second Rule spark works on the mana bar.
+An extension for the FlareUI interface that adds a swing timer to the place you are already looking: a small spark that travels across your own health bar and shows exactly when your next weapon swing will land.
 
-- Main hand only
-- Nothing extra on screen: it lives on the health bar you already watch
+## What it does
+
+Melee classes hit automatically every few seconds, and the base game gives no sign of when the next hit is coming. Knowing that timing matters: many abilities are best used right after a swing, not right before one.
+
+With this addon, a bright spark crosses the health bar of FlareUI's player frame during each main-hand swing:
+
+- The spark starts at one end of the bar the moment you swing.
+- It travels across the bar at the speed of your weapon.
+- Your next swing lands as it reaches the other end, and it starts again.
+
+It follows your real swing speed, so a faster weapon or a haste effect makes the spark cross faster. It works the same way as FlareUI's Five-Second Rule spark on the mana bar, so the two look and feel alike.
+
+## Examples
+
+- **Warrior:** use Slam, or queue Heroic Strike, right after the spark finishes instead of delaying your next hit.
+- **Paladin:** watch the spark to judge and re-apply your seal between swings.
+- **Any melee class with a slow two-handed weapon:** see how long you have before the next hit, so you know when you can step away and back without losing it.
+
+## How it changes your play
+
+- You gain a swing timer without adding another bar to your screen. FlareUI already offers swing timers as separate bars; this is for players who would rather not add more bars and want the information on the health bar they watch anyway.
+- You time abilities around your swings by sight instead of by guesswork.
+- Your screen stays clean: the spark only appears while you are swinging and disappears when you stop attacking.
+
+## Details
+
+- **Main hand only.** Off-hand and ranged swings are not shown.
+- **Only on FlareUI's player frame.** It needs FlareUI's unit frames to be enabled.
+- **Very light.** It only does work while a swing is in progress.
 
 ## Options
 
-The options appear inside FlareUI's own settings window. You can also type `/flareswing`, or open the game's Options > AddOns.
+The on/off switch appears inside FlareUI's own settings window, under Unit Frames. You can also type `/flareswing`, or open the game's Options > AddOns.
 
 ## Install
 
