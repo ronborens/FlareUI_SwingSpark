@@ -83,7 +83,7 @@ end
 
 local started = false
 ns.OnReady("FlareUI_SwingSparkDB", DEFAULTS, function()
-    ns.RegisterOptions("FlareUI: Swing Timer on Health Bar", {
+    ns.RegisterOptions("Swing Timer on Health Bar for FlareUI", {
         { key = "enabled", label = "Swing Timer on Health Bar",
           flare = { key = "uf.extSwing", section = "uf.extensions", sectionTitle = "Extensions", tab = "settings", half = true },
           tip = "A spark crosses the health bar of FlareUI's player frame over each main-hand swing: your next swing lands as it reaches the end." },

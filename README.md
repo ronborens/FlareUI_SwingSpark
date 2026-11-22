@@ -1,6 +1,8 @@
-# FlareUI: Swing Timer on Health Bar
+# Swing Timer on Health Bar for FlareUI
 
-An extension for the FlareUI interface that adds a swing timer to the place you are already looking: a small spark that travels across your own health bar and shows exactly when your next weapon swing will land.
+An unofficial add-on for FlareUI that adds a swing timer to the place you are already looking: a small spark that travels across your own health bar and shows exactly when your next weapon swing will land.
+
+_Not made by, or affiliated with, FlareUI's author._
 
 ## What it does
 

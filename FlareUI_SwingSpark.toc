@@ -1,10 +1,9 @@
 ## Interface: 16001
-## Title: FlareUI: Swing Timer on Health Bar
-## Notes: Unofficial FlareUI extension. A spark crosses FlareUI's player health bar over each main-hand swing.
+## Title: Swing Timer on Health Bar for FlareUI
+## Notes: Unofficial add-on for FlareUI, not made by its author. A spark crosses FlareUI's player health bar over each main-hand swing.
 ## Author: ronborens
-## Version: 1.0.2
+## Version: 1.0.3
 ## Dependencies: FlareUI
-## Group: FlareUI
 ## SavedVariables: FlareUI_SwingSparkDB
 ## Category: User Interface
 ## X-License: MIT
